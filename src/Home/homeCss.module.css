@@ -1,0 +1,42 @@
+.homeWrapper{
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.secondRow{
+    margin-top: 5%;
+}
+.home{
+    padding-top: 20px;
+}
+.plate{
+    height: 230px;
+    width: 230px;
+    align-items: center;
+    text-align: center;
+
+}
+.plateInfo{
+    margin-top: 50%;
+    font-weight: 700;
+    font-size: 50px;
+}
+.cardTextBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cardText{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cardTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cards{
+    height: 100%;
+}
