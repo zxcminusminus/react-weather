@@ -6,19 +6,19 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Link
+    Link, HashRouter
 } from "react-router-dom";
 import Home from "./Home/Home"
 import About from "./About/About"
 function App() {
   return (
-      <Router>
+      <HashRouter>
           <Header/>
           <Routes>
             <Route path={"/"} element={<Home/>}/>
             <Route path={"/about"} element={<About/>}/>
           </Routes>
-      </Router>
+      </HashRouter>
   );
 }
 
